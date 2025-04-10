@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Orbitron:wght@400..900&family=Righteous&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, sans-serif;
+}
+
+body {
+   font-size: 100%;
+   background: linear-gradient(68.15deg, #02070a 16.62%, #6786aa 85.61%);
+}
+
+.cabecalho {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   padding: 30px;
+   background-image: url('/public/assets/imags/AdobeStock_370280312-scaled 32.jpg');
+   background-size: cover;
+   background-position: center;
+}
+
+.cabecalho-imagem {
+   height: 120px;
+   width: 120px;
+}
+
+.cabecalho-menu {
+   display: flex;
+   gap: 20px;
+}
+
+.cabecalho-menu-item {
+   font-family: "Sarala", sans-serif;
+   color: #fff2e7;
+   font-weight: 500;
+   font-size: 20px;
+}
+
+.conteudo-principal {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   padding: 20px;
+}
+
+.conteudo-principal-escrito {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.conteudo-principal-titulo {
+   font-family: "Righteous", cursive;
+   font-weight: 400;
+   font-size: 40px;
+   color: #fff2e7;
+}
+
+.conteudo-principal-texto {
+   color: white;
+   font-family: "Sarala", sans-serif;
+   font-size: 20px;
+}
+
+.conteudo-principal-botao {
+   background-color: #007bff;
+   width: 100%;
+   height: 50px;
+   border: none;
+   border-radius: 10px;
+   font-family: "Sarala", sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+   color: #ecd6c4;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+.conteudo-principal-botao:hover {
+   background-color: #0056b3;
+}
+
+.conteudo-principal-imagem {
+   width: 70%;
+   height: auto;
+   border-radius: 20px;
+   margin-top: 20px;
+}
+
+.conteudo-secundario-titulo,
+.compromisso-valores,
+.conteudo-servicos-titulo,
+.faixa-beneficios-titulo,
+.trasformação {
+   padding: 50px;
+   font-size: 70px;
+   color: white;
+   text-align: center;
+   font-family: "Righteous", cursive;
+}
+
+/* Ajuste para textos menores */
+.conteudo-secundario-texto,
+.compromisso-valores-texto-um,
+.compromisso-valores-texto-dois,
+.compromisso-valores-texto-tres,
+.topicos {
+   padding: 20px;
+   font-size: 40px;
+   color: white;
+   text-align: center;
+}
+
+.services {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 20px;
+   padding: 20px;
+}
+
+.service {
+   background: white;
+   padding: 20px;
+   flex: 1 1 100%;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   text-align: center;
+}
+
+.service img {
+   width: 100%;
+   height: auto;
+   border-radius: 5px;
+   margin-bottom: 10px;
+}
+
+.faixa-beneficios {
+   padding: 20px;
+}
+
+
+.imagem-trans {
+   width: 50%;
+   height: auto;
+   border-radius: 50%;
+   margin: 20px auto 0 auto; /* topo, auto nas laterais, zero embaixo */
+   display: block; /* necessário para margin auto funcionar com imagens */
+}
+
+.testimonials {
+   background: #ddd;
+   padding: 20px;
+   text-align: center;
+}
+
+.testimonial {
+   margin: 10px auto;
+   font-style: italic;
+   font-size: 20px;
+}
+
+.contact-form {
+   background: white;
+   padding: 20px;
+   width: 100%;
+   margin: 20px auto;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input,
+textarea {
+   width: 100%;
+   padding: 10px;
+   margin: 10px 0;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   font-size: 16px;
+}
+
+.submit {
+   background-color: #007bff;
+   color: #fff;
+   font-family: "Sarala", sans-serif;
+   font-size: 1rem;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+   background-color: #0056b3;
+}
+
+footer {
+   background: #222;
+   color: white;
+   padding: 20px;
+   text-align: center;
+   margin-top: 20px;
+}
+
+.social-links {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.social-links a {
+   color: white;
+   text-decoration: none;
+   font-size: 16px;
+}
+
+.contato{
+   display: flex;
+   justify-content: center;
+   color: white;
+   font-size: 30px; 
+}
+
+.whatsapp-button {
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   background-color: #25d366;
+   color: white;
+   padding: 10px 15px;
+   font-size: 16px;
+   border-radius: 50px;
+   text-decoration: none;
+   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-button:hover {
+   background-color: #1ebe57;
+}
+
+
+@media (max-width: 768px) {
+   .cabecalho {
+      flex-direction: column;
+      text-align: center;
+      padding: 15px;
+   }
+
+   .cabecalho-imagem {
+      height: 100px;
+      width: 100px;
+      flex-direction: unset;
+   }
+
+   .cabecalho-menu {
+      
+      gap: 10px;
+   }
+
+   .cabecalho-menu-item {
+      font-size: 20px;
+   }
+}
+
+@media (max-width: 480px) {
+   .cabecalho-imagem {
+      height: 80px;
+      width: 80px;
+   }
+
+   .cabecalho-menu-item {
+      font-size: 16px;
+   }
+}
+
+   .conteudo-principal-titulo {
+       font-size: 60px;
+   }
+
+   .conteudo-principal-texto {
+       font-size: 30px;
+   }
+
+   .conteudo-principal-botao {
+       font-size: 25px;
+   }
+
+   .service {
+       flex: 1 1 45%;
+   }
+    
+   @media (max-width: 1024px) {
+      .conteudo-secundario-titulo,
+      .compromisso-valores,
+      .conteudo-servicos-titulo,
+      .faixa-beneficios-titulo,
+      .trasformação {
+         font-size: 50px;
+         padding: 40px;
+      }
+   
+      .conteudo-secundario-texto,
+      .compromisso-valores-texto-um,
+      .compromisso-valores-texto-dois,
+      .compromisso-valores-texto-tres,
+      .topicos {
+         font-size: 30px;
+         padding: 15px;
+      }
+   }
+   
+   /* Telas menores que 768px (celulares grandes e tablets pequenos) */
+   @media (max-width: 768px) {
+      .conteudo-secundario-titulo,
+      .compromisso-valores,
+      .conteudo-servicos-titulo,
+      .faixa-beneficios-titulo,
+      .trasformação {
+         font-size: 40px;
+         padding: 30px;
+      }
+   
+      .conteudo-secundario-texto,
+      .compromisso-valores-texto-um,
+      .compromisso-valores-texto-dois,
+      .compromisso-valores-texto-tres,
+      .topicos {
+         font-size: 24px;
+         padding: 10px;
+      }
+   }
+   
+   /* Telas menores que 480px (celulares pequenos) */
+   @media (max-width: 480px) {
+      .conteudo-secundario-titulo,
+      .compromisso-valores,
+      .conteudo-servicos-titulo,
+      .faixa-beneficios-titulo,
+      .trasformação {
+         font-size: 30px;
+         padding: 20px;
+      }
+   
+      .conteudo-secundario-texto,
+      .compromisso-valores-texto-um,
+      .compromisso-valores-texto-dois,
+      .compromisso-valores-texto-tres,
+      .topicos {
+         font-size: 18px;
+         padding: 5px;
+      }
+   }
